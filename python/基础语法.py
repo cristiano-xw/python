@@ -1,0 +1,12 @@
+xw=[1,2,3,4,5]
+xw.append(6)
+print(xw)
+xw.append(6)
+print(xw.count(6))
+xw.insert(2,'r')
+print(xw)
+xw.reverse()
+print(xw)
+cc=[]
+cc=xw.copy()
+print(cc)
