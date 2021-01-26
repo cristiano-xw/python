@@ -4,4 +4,4 @@ cv2.imshow("original",i)
 i[100:150,100:150]=[66,77,88]
 cv2.imshow("result",i)
 cv2.waitKey(0)
-cv2.destroyAllWindows()
+cv2.destroyAllWindows()  
