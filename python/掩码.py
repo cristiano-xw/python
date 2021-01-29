@@ -1,7 +1,8 @@
 import cv2
 import numpy as np
 c7=cv2.imread("D://opencv//c7.jpg",0)
-r,c=c7.shape   
+r,c=c7.shape 
+print(c7.shape)   
 key=np.random.randint(0,256,size=[r,c],dtype=np.uint8)
 encryption=cv2.bitwise_xor(c7,key)
 decryption=cv2.bitwise_xor(encryption,key)
