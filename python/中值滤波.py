@@ -1,0 +1,13 @@
+import cv2
+o=cv2.imread("D://opencv//yan.png")
+r=cv2.blur(o,(3,3))
+t=cv2.blur(o,(5,5))
+s=cv2.blur(o,(10,10))
+f=cv2.blur(o,(100,100))
+cv2.imshow("1",o)
+cv2.imshow("2",r)
+cv2.imshow("3",t)
+cv2.imshow("4",s)
+cv2.imshow("5",f)
+cv2.waitKey()
+cv2.destroyAllWindows()
