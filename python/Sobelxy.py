@@ -1,0 +1,11 @@
+import cv2 
+o=cv2.imread("D://opencv//hei.png")
+x=cv2.Sobel(o,cv2.CV_64F,1,0)
+y=cv2.Sobel(o,cv2.CV_64F,0,1)
+x=cv2.convertScaleAbs(x)
+y=cv2.convertScaleAbs(y)
+xy=cv2.addWeighted(x,0.5,y,0.5,0)
+cv2.imshow("origianl",o)
+cv2.imshow("xy",xy)
+cv2.waitKey()
+cv2.destroyAllWindows()    
