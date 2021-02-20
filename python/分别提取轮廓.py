@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-o=cv2.imread("D://opencv//test//s3.png")
+o=cv2.imread("D://opencv//test//s2.png")
 
 cv2.imshow("origianl",o)
 gray=cv2.cvtColor(o,cv2.COLOR_BGR2GRAY)
