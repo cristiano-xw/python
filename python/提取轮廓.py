@@ -10,6 +10,9 @@ mask=cv2.drawContours(mask,contours,-1,(255,255,255),-1)
 cv2.imshow("mask",mask)
 loc=cv2.bitwise_and(o,mask)
 cv2.imshow("location",loc)
+
+ 
+
 cv2.waitKey()
 cv2.destroyAllWindows()
 

@@ -17,4 +17,4 @@ for i in range(n):
     cv2.imshow("contours["+str(i)+"]",contoursImg[i])
 
 cv2.waitKey()
-cv2.destroyAllWindows()   
+cv2.destroyAllWindows()    

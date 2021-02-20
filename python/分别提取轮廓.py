@@ -1,6 +1,7 @@
 import cv2
 import numpy as np
-o=cv2.imread("D://opencv//lun.png")
+o=cv2.imread("D://opencv//test//s3.png")
+
 cv2.imshow("origianl",o)
 gray=cv2.cvtColor(o,cv2.COLOR_BGR2GRAY)
 ret,binary=cv2.threshold(gray,127,255,cv2.THRESH_BINARY)
