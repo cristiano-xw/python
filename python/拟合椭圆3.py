@@ -1,6 +1,6 @@
 import cv2
 import math
-img=cv2.imread("D://opencv//test//s3.png",3)  
+img=cv2.imread("D://opencv//test//s4.png",3)   
 
 imgray=cv2.Canny(img,10,500,5) #拟合出了边缘  
 ret,thresh = cv2.threshold(imgray,127,255,cv2.THRESH_BINARY)
