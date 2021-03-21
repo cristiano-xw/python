@@ -9,7 +9,7 @@ img=cv2.medianBlur(img,5) #进行中值滤波
 circles=cv2.HoughCircles(img,cv2.HOUGH_GRADIENT,1,300,param1=50,param2=30,
                          minRadius=100,maxRadius=200)   
 x=circles[0][0][0]
-y=circles[0][0][1]
+y=circles[0][0][1]  
 print("圆心坐标:(",x,y,")") 
 print("半径:(",circles[0][0][2],")") 
  
