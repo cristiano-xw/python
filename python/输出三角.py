@@ -23,7 +23,7 @@ for i in range(row):
 for i in range(row):
     for k in range(row - i - 1):
         print(' ', end='') #不会重复输出哈哈哈
-    for k in range(2 * i + 1):  
+    for k in range(2 * i + 1):   
         print('*', end='')
     print()
     
