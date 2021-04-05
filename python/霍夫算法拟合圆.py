@@ -1,8 +1,8 @@
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt  
-img=cv2.imread("D://opencv//q.jpg",0) #调为灰度图像
-imgo=cv2.imread("D://opencv//q.jpg",-1) #格式不变
+img=cv2.imread("D://opencv//test//c4.png",0) #调为灰度图像
+imgo=cv2.imread("D://opencv//test//c4.png",-1) #格式不变 
 o=cv2.cvtColor(imgo,cv2.COLOR_BGR2RGB)
 oshow=o.copy()
 img=cv2.medianBlur(img,5) #进行中值滤波
