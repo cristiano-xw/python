@@ -7,10 +7,10 @@ maxhue=170
 huemask=cv2.inRange(h,minhue,maxhue)
 minset=25
 maxset=166
-satmask=cv2.inRange(s,minset,maxset)
+satmask=cv2.inRange(s,minset,maxset)          
 mask=huemask & satmask
 roi=cv2.bitwise_and(img,img,mask=mask)
 cv2.imshow("img",img)
 cv2.imshow("roi",roi)
 cv2.waitKey()
-cv2.destroyAllWindows()
+cv2.destroyAllWindows() 
